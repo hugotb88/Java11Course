@@ -1,0 +1,42 @@
+*********************** Examen **********************
+
+Realice los siguientes ejercicios
+
+- Crea un nuevo package con tu nombre, dentro de el crea una clase Examen y
+realiza los siguientes ejercicios
+
+1) Crea una variable para cada tipo de primitivo
+2) Haz dos ejemplos de cast explicito
+3) Realiza dos ejemplos de cast implicito
+4) Que es una instancia?
+5) Imprime tu nombre completo en pantalla
+    5.1) Imprimelo en minusculas.
+    5.2) Imprimelo en mayusculas.
+    5.3) Imprimelo sin espacios en blanco.
+    5.4) Imprimelo alreves
+6) Crea un String con la frase "El examen esta pan", cuenta  e imprime el numero de letras 'a' en la frase
+7) Calcula el IVA de un funko que cuesta $285.53, imprime en pantalla el precio, el IVA y el total
+    7.1) Con dos decimales
+    7.2) Sin decimales y redondeado
+    7.3) En una sola linea sumale el precio sin IVA de otro juguete y Restale $100 (Imprime el resultado con dos decimales)
+
+8) Tomando en cuenta que Cristiano Ronaldo nació el 5 de Febrero de 1985
+    8.1) Imprime en pantalla que dia de la semana cae su cumpleaños en el 2089
+    8.2) Restale 15 años a su fecha de nacimiento e imprime el resultado.
+
+9) Crea otro package y dentro una clase llamada "Calculator" con los siguientes atributos
+   - numberA (Integer)
+   - numberB (Integer)
+
+   Crea un Constructor que pida ambos parametros para crear una instancia
+   Crea un Constructor vacio en el que los valores default sean 0 para ambos atributos.
+   Crea un metodo llamado "addition" que reciba un parametro y realice la suma del parametro recibido mas los dos de la clase,
+   que no retorne ningun valor pero que imprima el resultado
+
+10) Crea un tercer package con una clase llamada "TestClass"
+    - Crea un metodo void
+    - Crea una instancia de "Calculator"
+    - Inicializa la instancia con dos valores que tu quieras
+    - Haz un llamado al metodo "addition"
+    - Crea otra instancia sin valores
+    - Llama al metodo "addition" enviando '7' como parametro
