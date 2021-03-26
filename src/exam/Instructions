@@ -16,15 +16,14 @@ Ejemplo:
 Realiza los siguientes ejercicios:
 
 1) Crea una variable para cada tipo de primitivo e imprime su valor en pantalla
-2) Haz dos ejemplos de cast explicito
-3) Realiza dos ejemplos de cast implicito
-4) Que es una instancia?
+2) Haz dos ejemplos de cast explicito e imprime el resultado.
+3) Realiza dos ejemplos de cast implicito e imprime el resultado
+4) Que es una instancia? (Escribe la respuesta en un comentario multi linea)
 5) Imprime tu nombre completo en pantalla
     5.1) Imprimelo en minusculas.
     5.2) Imprimelo en mayusculas.
-    5.3) Imprimelo sin espacios en blanco.
-    5.4) Imprimelo alreves
-6) Crea un String con la frase "El examen esta pan", cuenta  e imprime el numero de letras 'a' en la frase
+    5.3) Reemplaza todas las vocales 'a' de tu nombre por la letra 'x' e imprimelo
+6) Crea un String con la frase "El examen esta pan", cuenta  e imprime el numero de caracteres en la frase.
 7) Calcula el IVA de un funko que cuesta $285.53, imprime en pantalla el precio, el IVA y el total
     7.1) Con dos decimales
     7.2) Sin decimales y redondeado
@@ -50,3 +49,6 @@ Realiza los siguientes ejercicios:
     - Haz un llamado al metodo "addition"
     - Crea otra instancia sin valores
     - Llama al metodo "addition" enviando '7' como parametro
+
+11) Usando un switch cuenta e imprime cuantas vocales a,e,i,o,u tiene la frase "Neta el examen estaba pan"
+    11.1) Imprime tambien cuantos caracteres no son vocales
