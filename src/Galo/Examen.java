@@ -96,6 +96,5 @@ public class Examen {
         //8.2 - Nacimiento de Ronaldo - 15 años
         LocalDate cumpleRonaldo_15 = LocalDate.of(yy-15,mm,dd);
         System.out.println("Fecha de nacimiento de CR - 15 años:"+cumpleRonaldo_15);
-
     }
 }
