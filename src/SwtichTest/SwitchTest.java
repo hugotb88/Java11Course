@@ -12,27 +12,13 @@ public class SwitchTest {
         for (int cont = 0; cont <= lf; ++cont) {
             char x = frase2.charAt(cont);
             switch (x) {
-                case 'a':
-                    ++cont_a;
-                    break;
-                case 'e':
-                    ++cont_e;
-                    break;
-                case 'i':
-                    ++cont_i;
-                    break;
-                case 'o':
-                    ++cont_o;
-                    break;
-                case 'u':
-                    ++cont_u;
-                    break;
-                case ' ':
-                    ++cont_s;
-                    break;
-                default:
-                    ++cont_c;
-                    break;
+                case 'a' -> ++cont_a;
+                case 'e' -> ++cont_e;
+                case 'i' -> ++cont_i;
+                case 'o' -> ++cont_o;
+                case 'u' -> ++cont_u;
+                case ' ' -> ++cont_s;
+                default -> ++cont_c;
             }
         }
         System.out.println("Se encontraron las siguientes letras a: " + cont_a);
