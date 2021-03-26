@@ -2,10 +2,20 @@
 
 Realice los siguientes ejercicios
 
-- Crea un nuevo package con tu nombre, dentro de el crea una clase Examen y
-realiza los siguientes ejercicios
+0) Crea un nuevo package con tu nombre, dentro de el crea una clase Examen
 
-1) Crea una variable para cada tipo de primitivo
+*Pon un comentario arriba de cada ejercicio para saber cual es
+Ejemplo:
+
+//Ejercicio 1
+...codigo aqui
+
+//Ejercicio 2
+...codigo aqui
+
+Realiza los siguientes ejercicios:
+
+1) Crea una variable para cada tipo de primitivo e imprime su valor en pantalla
 2) Haz dos ejemplos de cast explicito
 3) Realiza dos ejemplos de cast implicito
 4) Que es una instancia?
