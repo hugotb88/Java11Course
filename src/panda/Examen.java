@@ -2,6 +2,7 @@ package panda;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.time.*;
 
 public class Examen {
     public static <Bigdecimal> void main(String[] args) {
@@ -107,16 +108,17 @@ public class Examen {
 
         //8) Tomando en cuenta que Cristiano Ronaldo nació el 5 de Febrero de 1985
         //8.1) Imprime en pantalla que dia de la semana cae su cumpleaños en el 2089
+
+        LocalDate date = LocalDate.of(1985,2,5);
+        LocalDate date2 = date.plusYears(104);
+        System.out.println(date2.getDayOfWeek());
+
         //8.2) Restale 15 años a su fecha de nacimiento e imprime el resultado.
 
-        //9) Crea otro package y dentro una clase llamada "Calculator" con los siguientes atributos
-        //- numberA (Integer)
-        //        - numberB (Integer)
+        LocalDate date3 = date.minusYears(15);
+        System.out.println(date3);
 
-        //Crea un Constructor que pida ambos parametros para crear una instancia
-        //Crea un Constructor vacio en el que los valores default sean 0 para ambos atributos.
-        //        Crea un metodo llamado "addition" que reciba un parametro y realice la suma del parametro recibido mas los dos de la clase,
-        //        que no retorne ningun valor pero que imprima el resultado
+
 
         //10) Crea un tercer package con una clase llamada "TestClass"
         //        - Crea un metodo void
