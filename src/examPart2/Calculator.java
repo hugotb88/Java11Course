@@ -34,7 +34,10 @@ public class Calculator {
 
     public static void main(String[] args) {
 
-            Calculator addition = new Calculator(1,5);
+        Calculator addition = new Calculator(1,5);
+        int suma = addition.numberA + addition.numberB;
+
+        System.out.println(suma);
 
 
 

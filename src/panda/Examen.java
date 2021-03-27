@@ -5,7 +5,7 @@ import java.math.RoundingMode;
 import java.time.*;
 
 public class Examen {
-    public static <Bigdecimal> void main(String[] args) {
+    public static void main(String[] args) {
 
         //Ejercicio 1 Crea una variable para cada tipo de primitivo e imprime su valor en pantalla
         byte a = 5;
