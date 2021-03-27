@@ -35,6 +35,14 @@ public class Examen {
         System.out.println(rfcNum);
 
 
+        //Correccion
+        double x = 1.25;
+        int y = (int)x;
+
+        int z = 300;
+        short x1 = (short) z;
+
+
         // Ejercicio 3 Realiza dos ejemplos de cast implicito e imprime el resultado
 
         int exam = 6;
@@ -43,6 +51,13 @@ public class Examen {
         double caliFinal = calif;
 
         System.out.println("Tu calificación final es:" + caliFinal);
+
+        //Correccion
+        short sh = 129;
+        int x2 = sh;
+
+        int i1 = 1231654651;
+        long l1 = i1;
 
 
         // Ejercicio 4 Que es una instancia? (Escribe la respuesta en un comentario multi linea)
