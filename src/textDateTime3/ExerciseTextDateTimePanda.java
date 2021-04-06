@@ -24,7 +24,7 @@ public class ExerciseTextDateTimePanda {
         Double tax = 56.89;
         int quantity = 536748;
 
-        // Codigo para en - GB
+        // Codigo para declarar el pais e idioma al que vamos a formatear en - GB
         Locale localGb = new Locale("en", "GB");
 
         //Creamos instancias de moneda, impuesto y cantidad
