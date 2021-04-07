@@ -9,7 +9,6 @@ import java.util.Locale;
          - currency
          - percentage
          - quantity
-
          The values are:
          - 1800 (Currency)
          - 56.89 (percentage)
