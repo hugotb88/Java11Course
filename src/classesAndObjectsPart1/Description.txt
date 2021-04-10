@@ -1,0 +1,91 @@
+// Designing a Class
+package <package name>;
+import <package name>.<OtherClassName>
+
+<access modifier> class <ClassName> {
+    //Variables and Methods
+}
+
+e.g
+
+package examPart2;
+
+public class Calculator {
+        //Attributes
+        private Integer numberA;
+        private Integer numberB;
+
+        //Constructor
+        public Calculator (Integer assignedNumberA, Integer assignedNumberB){
+            this.numberA = assignedNumberA;
+            this.numberB = assignedNumberB;
+        }
+
+        public Calculator (){
+            this.numberA = 0;
+            this.numberB = 0;
+        }
+
+        //Methods
+
+        public void setNumberA (Integer assignedNumberA) {
+            this.numberA = assignedNumberA;
+        }
+
+        public Integer getNumberA () { return this.numberA; }
+
+        public void setNumberB (Integer assignedNumberB) {
+            this.numberB = assignedNumberB;
+        }
+
+        public Integer getNumberB () { return this.numberB; }
+
+
+}
+
+
+// How to create an Object
+* "new" operator creates an Object (Instance of a Class)
+* reference - memory
+* The "." operator give you access to variables or methods of the object
+
+
+
+// Instance Variables
+* They are the attributes of the Class
+
+e.g
+
+public class Product {
+    private int id;
+    private String name;
+    private BigDecimal price;
+    private LocalDate bestBefore = LocalDate.now().plusDays(3);
+}
+
+
+// Instance Methods
+* Methods of the class, indicate actions or behaviours of the class.
+* Structure
+    <access modifier> <return type> <method name> (<ParameterType> <ParameterName>,  <ParameterType> <ParameterName> ...) {
+        //Logic
+        return <value>;
+    }
+
+e.g
+
+public class Product {
+    //Attributes (Instance Variables)
+    private String name;
+
+
+    //Methods (Instance Methods)
+    public Strung getName(){
+        return name;
+    }
+
+    public void setName(String newName){
+        name = newName;
+    }
+
+}
