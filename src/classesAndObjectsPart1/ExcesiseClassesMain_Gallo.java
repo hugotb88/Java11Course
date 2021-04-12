@@ -7,5 +7,6 @@ public class ExcesiseClassesMain_Gallo {
         persona1.nombreMayusculas();
         persona1.nombreMinusculas();
         persona1.invierteNombre();
+
     }
 }
