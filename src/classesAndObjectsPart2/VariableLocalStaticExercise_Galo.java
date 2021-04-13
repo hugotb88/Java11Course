@@ -26,13 +26,13 @@ public class VariableLocalStaticExercise_Galo {
 
     public static void calculateTime(double distance) {
         double time = Math.sqrt((two * distance) / gravity);
-        System.out.println("El tiempo de caida es: "+time+" s.");
+        System.out.println("El tiempo de caida es: " + time + " s.");
     }
 
-    public void calculateDistanceVerticalMovement(double velocity,double time){
-        double seconds = time/60;
-        BigDecimal high = BigDecimal.valueOf((velocity*seconds)+(gravity*(Math.pow(time,two)))/2).setScale(2, RoundingMode.HALF_UP);
-        System.out.println("La distancia calculada del movimiento vertical hacia abajo es de: "+high+" m");
+    public void calculateDistanceVerticalMovement(double velocity, double time) {
+        double seconds = time / 60;
+        BigDecimal high = BigDecimal.valueOf((velocity * seconds) + (gravity * (Math.pow(time, two))) / 2).setScale(2, RoundingMode.HALF_UP);
+        System.out.println("La distancia calculada del movimiento vertical hacia abajo es de: " + high + " m");
     }
 
     //Main
