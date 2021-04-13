@@ -1,0 +1,4 @@
+- Crear una clase con:
+    - Una constante
+    - Un metodo static
+    - Un metodo con al menos 2 variables locales
