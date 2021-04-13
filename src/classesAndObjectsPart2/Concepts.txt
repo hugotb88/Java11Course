@@ -1,0 +1,5 @@
+//Local variables
+    - Declared inside of the methods
+    - Method parameters are Local variables
+    - Can be accessed inside of the method, but not outside.
+    - Can have the same name of the instance variable.
