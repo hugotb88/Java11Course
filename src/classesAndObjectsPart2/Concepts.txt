@@ -3,3 +3,11 @@
     - Method parameters are Local variables
     - Can be accessed inside of the method, but not outside.
     - Can have the same name of the instance variable.
+
+
+//"final" keyword
+    - Makes final the value, used in constants
+
+
+//"static" keyword
+    - Makes global the class,method or variable

@@ -3,6 +3,7 @@ package classesAndObjectsPart2;
 public class ProductLocalVariableExample {
 
     private String name;
+    public final Double PI = 3.14;
 
     public void setName(String name) {
         this.name = name;
@@ -56,5 +57,8 @@ public class ProductLocalVariableExample {
         String resultconsumeP2 = p2.consume();
 
         p1.createRFC("OECV880907");
+
+        //Uso de constante
+        System.out.println(p1.PI);
     }
 }
