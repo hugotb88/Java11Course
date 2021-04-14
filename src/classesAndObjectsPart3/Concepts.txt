@@ -1,0 +1,16 @@
+//static block of code
+ - Executed when the class is loaded to memory, only once time, when the class is loaded to memory
+
+
+//Static methods
+ - Makes the method global, all the instances uses the same method
+
+
+
+//Static variables
+- Makes the variable global, all the instances uses the same variable
+
+
+
+// final and static combined
+- Creates global constants
