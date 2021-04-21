@@ -2,3 +2,15 @@
 - Same method name
 - Same return type value
 - Different Parameters (number of parameters or type of parameters)
+
+
+//Variable number of Parameters
+- all the values are stored in an Array with positions 0,1,2,3,4...n
+
+- Use the three dots after the type
+
+ public void setAnotherPrice(double... possiblePrices)
+
+- If you are using more than one parameter, use the three dot operator with the last parameters
+
+ public void setAnotherPrice(double mainPrice, double... possiblePrices)
