@@ -14,3 +14,10 @@
 - If you are using more than one parameter, use the three dot operator with the last parameters
 
  public void setAnotherPrice(double mainPrice, double... possiblePrices)
+
+
+
+//Reuse constructors
+- Call with this(parameters)
+- First line to execute
+- A constructor can't cll the same constructor that calling him.
