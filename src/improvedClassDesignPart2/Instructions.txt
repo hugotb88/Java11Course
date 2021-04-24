@@ -1,0 +1,10 @@
+Create an Enum of Countries, the enum will contain the following:
+
+- Name of the Country
+- Prefix in three constants --> e.g MEX
+- Name of his currency --> e.g "Pesos"
+
+
+Acceptance Criteria (Mr Mena)
+- Enum class
+- Test class where you are using the Enum.
