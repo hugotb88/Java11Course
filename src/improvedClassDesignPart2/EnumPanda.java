@@ -2,9 +2,7 @@ package improvedClassDesignPart2;
 
 import java.time.*;
 
-public class EnumPanda{
-
-    public enum country {
+    public enum EnumPanda {
         MEX ("Mexico","MX", "Peso Mexicano", LocalDate.now(ZoneId.of("GMT-5"))),
         CHI ("Chile", "CHI", "Peso Chileno", LocalDate.now(ZoneId.of("GMT-4"))),
         ARG ("Argentina", "ARG", "Peso Argentino", LocalDate.now(ZoneId.of("GMT-3")));
@@ -17,7 +15,7 @@ public class EnumPanda{
         private final LocalDate zoneId;
 
 
-        country(String countryName, String abbreviation, String coin, LocalDate zoneId) {
+        EnumPanda(String countryName, String abbreviation, String coin, LocalDate zoneId) {
             this.countryName = countryName;
             this.abb = abbreviation;
             this.coin = coin;
@@ -35,7 +33,7 @@ public class EnumPanda{
             System.out.println(ARG.getAll());
         }
     }
-}
+
 
 
 
