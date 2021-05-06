@@ -14,10 +14,11 @@ public class Test {
         Panda p2 = new Galo();
         p2.hello();
 
+        Panda p3 = new Panda();
 
-        System.out.println(p1.toString());
-        System.out.println(g1.toString());
-        System.out.println(p2.toString());
+        System.out.println(p1.equals(p3));
+        System.out.println(g1);
+        System.out.println(p2);
 
     }
 
